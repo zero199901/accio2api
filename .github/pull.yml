@@ -1,0 +1,6 @@
+version: '1'
+rules:
+- base: main
+  upstream: linhuai777:main
+  mergeMethod: merge
+  mergeUnstable: false
